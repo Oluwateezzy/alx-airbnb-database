@@ -6,4 +6,5 @@ This project is part of the comprehensive ALX Airbnb Database Module, focusing o
 ---
 
 ### ER Diagram
+[airbnbER](https://ibb.co/TMsLwcR6)
 ![alt airbnbER](https://ibb.co/TMsLwcR6)
