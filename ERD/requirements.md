@@ -10,6 +10,9 @@ This project is part of the comprehensive ALX Airbnb Database Module, focusing o
 
 ---
 
+# AirBnB Database ER Diagram
+
+```mermaid
 erDiagram
     USER {
         uuid user_id PK
@@ -77,3 +80,4 @@ erDiagram
     PROPERTY ||--o{ BOOKING : "has"
     PROPERTY ||--o{ REVIEW : "receives"
     BOOKING ||--|| PAYMENT : "has"
+```
