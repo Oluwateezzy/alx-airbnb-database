@@ -10,8 +10,8 @@ This project is part of the comprehensive ALX Airbnb Database Module, focusing o
 
 ---
 
-### Data Flow
-erDiagram
+### Data Flow   
+erDiagram   
     USER {
         uuid user_id PK
         varchar first_name
