@@ -5,11 +5,6 @@ This project is part of the comprehensive ALX Airbnb Database Module, focusing o
 
 ---
 
-### ER Diagram
-![alt airbnbER](airbnb.jpg)
-
----
-
 # AirBnB Database ER Diagram
 
 ```mermaid
