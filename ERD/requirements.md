@@ -11,7 +11,7 @@ This project is part of the comprehensive ALX Airbnb Database Module, focusing o
 ---
 
 ### Data Flow   
-erDiagram   
+`erDiagram   
     USER {
         uuid user_id PK
         varchar first_name
@@ -77,4 +77,4 @@ erDiagram
     - USER ||--o{ MESSAGE : "receives"
     - PROPERTY ||--o{ BOOKING : "has"
     - PROPERTY ||--o{ REVIEW : "receives"
-    - BOOKING ||--|| PAYMENT : "has"
+    - BOOKING ||--|| PAYMENT : "has" `
