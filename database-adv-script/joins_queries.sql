@@ -44,22 +44,5 @@ SELECT
     b.status
 FROM 
     User u
-LEFT JOIN 
-    Booking b ON u.user_id = b.user_id
-
-UNION
-
-SELECT 
-    u.user_id,
-    u.first_name,
-    u.last_name,
-    b.booking_id,
-    b.start_date,
-    b.end_date,
-    b.status
-FROM 
-    Booking b
-LEFT JOIN 
-    User u ON b.user_id = u.user_id
-WHERE 
-    u.user_id IS NULL;
+FULL OUTER JOIN 
+    Booking b ON u.user_id = b.user_id;
